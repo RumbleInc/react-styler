@@ -1,0 +1,33 @@
+{
+  "name": "react-styler",
+  "version": "0.1.0",
+  "description": "Nice CSS in React",
+  "main": "src/styler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RumbleInc/react-styler.git"
+  },
+  "keywords": [
+    "react",
+    "css",
+    "jss",
+    "react-component"
+  ],
+  "author": "Alexey Volkov (Rumble Inc)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RumbleInc/react-styler/issues"
+  },
+  "homepage": "https://github.com/RumbleInc/react-styler",
+  "dependencies": {
+    "jss": "^1.0.8",
+    "jss-nested": "^0.1.7",
+    "jss-px": "^0.1.2",
+    "jss-vendor-prefixer": "^0.2.0",
+    "lodash": "^3.6.0",
+    "react": "^0.13.1"
+  }
+}
