@@ -41,6 +41,16 @@ jss.use(function (rule) {
             style['-moz-filter'] = value;
             style['-o-filter'] = value;
             style['-ms-filter'] = value;
+        } else if (prop === 'flex') {
+            style['-webkit-box-flex'] = value;
+            style['-moz-box-flex'] = value;
+            style['-webkit-flex'] = value;
+            style['-ms-flex'] = value;
+        } else if (prop === 'order') {
+            style['-webkit-box-ordinal-group'] = value;
+            style['-moz-box-ordinal-group'] = value;
+            style['-ms-flex-order'] = value;
+            style['-webkit-order'] = value;
         }
     });
 });
