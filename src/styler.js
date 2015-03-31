@@ -162,15 +162,15 @@ var stylist = (function () {
                             return this.className(className);
                         }, this).join(' ');
                     } else {
-                        className = className || this.constructor.displayName;
+                        className = className || componentName;
                         var generatedClassName = this.sheet.classes[className];
                         if (generatedClassName) {
                             return generatedClassName;
                         } else {
-                            if (className === this.constructor.displayName) {
+                            if (className === componentName) {
                                 return className + (this.props.className ? ' ' + this.props.className : '');
                             } else {
-                                return this.constructor.displayName + '-' + className;
+                                return componentName + '-' + className;
                             }
                         }
                     }
