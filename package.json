@@ -23,11 +23,10 @@
   },
   "homepage": "https://github.com/RumbleInc/react-styler",
   "dependencies": {
-    "jss": "^1.0.8",
-    "jss-nested": "^0.1.7",
-    "jss-px": "^0.1.2",
-    "jss-vendor-prefixer": "^0.2.0",
-    "lodash": "^3.6.0",
-    "react": "^0.13.1"
+    "jss": "1.0.8",
+    "jss-nested": "0.1.7",
+    "jss-px": "0.1.2",
+    "jss-vendor-prefixer": "0.2.0",
+    "lodash": "^3.6.0"
   }
 }

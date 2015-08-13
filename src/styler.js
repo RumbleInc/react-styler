@@ -1,7 +1,6 @@
 'use strict';
 
 var _ = require('lodash'),
-    React = require('react/lib/ReactWithAddons'),
     jss = require('jss'),
     px = require('jss-px'),
     nested = require('jss-nested'),
@@ -139,10 +138,6 @@ var stylist = (function () {
             };
 
             var Mixin = {
-
-                propTypes: {
-                    className: React.PropTypes.string
-                },
 
                 componentWillMount: function () {
                     this.sheet = ref();
